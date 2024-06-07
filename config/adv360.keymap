@@ -78,5 +78,15 @@
             >;
         };
 
+        layer_Windows {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans                                                               &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &kp LEFT_GUI                       &kp RGUI  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans                            &kp LEFT_ALT                  &kp RIGHT_ALT                  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans                    &trans  &trans        &trans                         &trans  &trans  &trans          &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
     };
 };
